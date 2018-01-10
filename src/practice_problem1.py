@@ -1066,8 +1066,8 @@ def print_failure_message(message='  *** FAILED the above test. ***',
           file=sys.stderr, flush=True)
     time.sleep(flush_time)
 
+
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
 main()
-
